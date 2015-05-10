@@ -12,9 +12,6 @@ public final class grafixMask {
 	private static final int COLUMNS = 600;
 	private static boolean GRID[][] = new boolean[ROWS][COLUMNS];
 	
-	
-	
-	
 	public static void main(String[] args) {
 		
 		/* The following are the test cases provided in the problem description */
@@ -61,7 +58,6 @@ public final class grafixMask {
 					areas.add(fillGrid(row, col));
 				}
 			}
-				
 		}
 		
 		Collections.sort(areas);
@@ -157,10 +153,6 @@ public final class grafixMask {
 					Integer.parseInt(dimensions[1]),
 					Integer.parseInt(dimensions[2]),
 					Integer.parseInt(dimensions[3])).setGrid();;
-			
 		}
-		
 	}
 }
-
-
